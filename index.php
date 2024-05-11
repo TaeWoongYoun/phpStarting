@@ -25,7 +25,7 @@
         if (isset($_GET['id'])){
             echo file_get_contents("data/".$_GET['id']);
         } else {
-            echo "hello";
+            echo "my php page";
         }
     ?>
 </body>
