@@ -23,5 +23,7 @@
     <?php
         echo nl2br($str);
     ?>
+
+    
 </body>
 </html>

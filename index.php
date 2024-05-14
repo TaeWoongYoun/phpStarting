@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1><a href="index.php">WEB</a></h1>
+    <ol>
     <?php
         $list = scandir('data');
         $i = 0;
@@ -21,6 +22,7 @@
             $i = $i + 1;
         }
     ?>
+    </ol>
     <h2>
         <?php 
             if (isset($_GET['id'])) {
