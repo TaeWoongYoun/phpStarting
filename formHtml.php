@@ -6,9 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="form.php">
-        <input type="text" name="title" placeholder="Title">
-        <input type="submit" value="submit">
+    <form action="form.php" method="post">
+        <p><input type="text" name="title" placeholder="Title"></p>
+        <p><textarea name="discription" id="discription"></textarea></p>
+        <p><input type="submit" value="submit"></p>
     </form>
 </body>
 </html>
