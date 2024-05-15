@@ -7,8 +7,8 @@
 </head>
 <body>
 <?php
-    echo "<p>title :" .$_GET['title'].  "</p>";
-    echo "<p>description :" .$_GET['description'].  "</p>";
+    echo "<p>title : " .$_POST['title'].  "</p>";
+    echo "<p>discription : " .$_POST['discription'].  "</p>";
 ?>
 </body>
 </html>
