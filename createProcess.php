@@ -8,7 +8,12 @@
 <body>
     <?php
         file_put_contents('data/'.$_POST['title'], $_POST['description']);
-        header('Location: /index.php?id='.$_POST['title']);
+        // header('Location: /index.php?id='.$_POST['title']);
+        // exit();
     ?>
+
+    <script>
+        location.href = 'index.php';
+    </script>
 </body>
 </html>
