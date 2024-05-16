@@ -51,6 +51,7 @@
     <a href="create.php">create</a>
     <?php if(isset($_GET['id'])){ ?>
         <a href="update.php?id=<?=$_GET['id']?>">update</a>
+        <a href="deleteProcess.php?id=<?=$_GET['id']?>">delete</a>
     <?php } ?>
     <h2>
         <?php 
