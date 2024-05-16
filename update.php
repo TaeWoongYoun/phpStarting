@@ -61,7 +61,8 @@
         description();
     ?>
 
-    <form action="createProcess.php" method="post">
+    <form action="updateProcess.php" method="post">
+        <input type="hidden" name="old_title" value="<?=$_GET['id']?>">
         <p>
             <input type="text" name="title" placeholder="Title" value="<?php title()?>">
         </p>
