@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-        unlink('data/'.$_GET['id']);
+        unlink('data/'.$_POST['id']);
     ?>
 
     <script>
