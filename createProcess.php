@@ -8,8 +8,7 @@
 <body>
     <?php
         file_put_contents('data/'.$_POST['title'], $_POST['description']);
-
-        echo "<p>".$_POST['title']."</p>"
+        header('Location: /index.php?id='.$_POST['title']);
     ?>
 </body>
 </html>
